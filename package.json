@@ -1,0 +1,20 @@
+{
+  "name": "asar-integrity-bug",
+  "version": "1.0.0",
+  "description": "Test app with electron-forge",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron . --no-sandbox"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "electron": "^33.0.2"
+  }
+}
